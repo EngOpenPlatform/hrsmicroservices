@@ -6,6 +6,7 @@ entries:
     created: 2018-04-09T16:44:46.4723516+02:00
     description: Data Reporter for Digital Fastening
     digest: ce75153de96fe070c80603d4f1363e73efeb83bb318c70c086fff3ecf370ea5d
+    icon: https://engopenplatform.github.io/hrsmicroservices/engineering.png
     name: data-reporter
     urls:
     - https://engopenplatform.github.io/hrsmicroservices/data-reporter-0.0.1.tgz
