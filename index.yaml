@@ -8,5 +8,5 @@ entries:
     - digitalfastening
     name: dfdatareporter
     urls:
-    - https://github.com/EngOpenPlatform/hrsmicroservices/blob/master/data-reporter-0.0.1.tgz
+    - https://engopenplatform.github.io/hrsmicroservices/data-reporter-001.tgz
     version: 0.0.1
