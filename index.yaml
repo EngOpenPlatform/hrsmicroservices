@@ -1,14 +1,23 @@
 apiVersion: v1
 entries:
+  data-collector:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-04-10T09:50:02.5669485+02:00
+    description: Data Collector for Digital Fastening
+    digest: a7c11ec1b0b9b8835e6a22f88d9512b510bcdddb3b9d5c39d3dc96233acee7ba
+    name: data-collector
+    urls:
+    - https://engopenplatform.github.io/hrsmicroservices/data-collector-0.0.1.tgz
+    version: 0.0.1
   data-reporter:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-09T16:44:46.4723516+02:00
+    created: 2018-04-10T09:50:02.5669485+02:00
     description: Data Reporter for Digital Fastening
-    digest: ce75153de96fe070c80603d4f1363e73efeb83bb318c70c086fff3ecf370ea5d
-    icon: https://engopenplatform.github.io/hrsmicroservices/engineering.png
+    digest: cd7b552264a5eab7eb4b273776b82f6e86ce9b3ed30c8e15484e8f851564e35a
     name: data-reporter
     urls:
     - https://engopenplatform.github.io/hrsmicroservices/data-reporter-0.0.1.tgz
     version: 0.0.1
-generated: 2018-04-09T16:44:46.4713197+02:00
+generated: 2018-04-10T09:50:02.5659192+02:00
