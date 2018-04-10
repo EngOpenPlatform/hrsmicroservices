@@ -1,23 +1,53 @@
 apiVersion: v1
 entries:
+  alerter:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-04-10T11:53:45.6917654+02:00
+    description: Alerter for Digital Fastening
+    digest: 692e53877d320e159d01c865e64fbc260bdd99bf63381f85a6bd19bdae2cabdb
+    name: alerter
+    urls:
+    - https://engopenplatform.github.io/hrsmicroservices/alerter-0.0.1.tgz
+    version: 0.0.1
   data-collector:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-10T09:50:02.5669485+02:00
+    created: 2018-04-10T11:53:45.692768+02:00
     description: Data Collector for Digital Fastening
     digest: a7c11ec1b0b9b8835e6a22f88d9512b510bcdddb3b9d5c39d3dc96233acee7ba
     name: data-collector
     urls:
     - https://engopenplatform.github.io/hrsmicroservices/data-collector-0.0.1.tgz
     version: 0.0.1
+  data-processor:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-04-10T11:53:45.6937699+02:00
+    description: Data Processor for Digital Fastening
+    digest: 367a688925367fb8a5b001da1683afb76aafb0c1c35065ef3fec8a98e92ca529
+    name: data-processor
+    urls:
+    - https://engopenplatform.github.io/hrsmicroservices/data-processor-0.0.1.tgz
+    version: 0.0.1
   data-reporter:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-10T09:50:02.5669485+02:00
+    created: 2018-04-10T11:53:45.6937699+02:00
     description: Data Reporter for Digital Fastening
-    digest: cd7b552264a5eab7eb4b273776b82f6e86ce9b3ed30c8e15484e8f851564e35a
+    digest: ace58a2aafc0125d61e05c740eee02cfe5110fee05d1922daca34d7d161f3747
     name: data-reporter
     urls:
     - https://engopenplatform.github.io/hrsmicroservices/data-reporter-0.0.1.tgz
     version: 0.0.1
-generated: 2018-04-10T09:50:02.5659192+02:00
+  user-manager:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-04-10T11:53:45.6957764+02:00
+    description: User Manager for Digital Fastening
+    digest: 58d9a2070b88f596520ad78b3615ed42922a936aa8e204a0cc7329777b5e40d2
+    name: user-manager
+    urls:
+    - https://engopenplatform.github.io/hrsmicroservices/user-manager-0.0.1.tgz
+    version: 0.0.1
+generated: 2018-04-10T11:53:45.6907615+02:00
