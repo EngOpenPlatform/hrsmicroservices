@@ -3,7 +3,7 @@ entries:
   alerter:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-12T09:37:39.5077307+02:00
+    created: 2018-04-12T11:09:21.1464987+02:00
     description: Alerter for Digital Fastening
     digest: c4f328a64dc9cdb1d888d99f7deb2f461630da4ff15bced01d6a179885982201
     name: alerter
@@ -13,7 +13,7 @@ entries:
   data-collector:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-12T09:37:39.5098353+02:00
+    created: 2018-04-12T11:09:21.1484421+02:00
     description: Data Collector for Digital Fastening
     digest: 2154bdb21c1155b64691bafbc292b3e468533938d525d343abfc11c1c92a0397
     name: data-collector
@@ -23,7 +23,7 @@ entries:
   data-processor:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-12T09:37:39.5319635+02:00
+    created: 2018-04-12T11:09:21.1514434+02:00
     description: Data Processor for Digital Fastening
     digest: 367a688925367fb8a5b001da1683afb76aafb0c1c35065ef3fec8a98e92ca529
     name: data-processor
@@ -33,17 +33,27 @@ entries:
   data-reporter:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-12T09:37:39.541923+02:00
+    created: 2018-04-12T11:09:21.153442+02:00
     description: Data Reporter for Digital Fastening
     digest: ace58a2aafc0125d61e05c740eee02cfe5110fee05d1922daca34d7d161f3747
     name: data-reporter
     urls:
     - https://engopenplatform.github.io/hrsmicroservices/data-reporter-0.0.1.tgz
     version: 0.0.1
+  sc-data-reporter:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-04-12T11:09:21.1544441+02:00
+    description: Data Reporter for Smart Microclimate
+    digest: 3957f45b09d1c5014701b791979927ecc2170807eaff93d8f587d195978c0ee5
+    name: sc-data-reporter
+    urls:
+    - https://engopenplatform.github.io/hrsmicroservices/sc-data-reporter-0.0.1.tgz
+    version: 0.0.1
   se-data-manager:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-12T09:37:39.5439223+02:00
+    created: 2018-04-12T11:09:21.1564422+02:00
     description: Data Manager for Smart Extractors
     digest: 40e9c44b4673c0bcbaef5dee18d0fbd1792291132642a32d634a8c406c719c21
     name: se-data-manager
@@ -53,7 +63,7 @@ entries:
   sm-alerter:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-12T09:37:39.5611233+02:00
+    created: 2018-04-12T11:09:21.1984282+02:00
     description: Alerter for Speaking Machine
     digest: 28203535dbbfcf4a71679663f6429d19f1605e9779292b660e3638a4f198b777
     name: sm-alerter
@@ -63,7 +73,7 @@ entries:
   sm-data-manager:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-12T09:37:39.5641225+02:00
+    created: 2018-04-12T11:09:21.2013413+02:00
     description: Data Manager for Speaking Machine
     digest: dd5e31041bd79be922bfc7bff2ef7c24e0211c76c750e9754da865c382794825
     name: sm-data-manager
@@ -73,7 +83,7 @@ entries:
   sm-data-processor:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-12T09:37:39.5671246+02:00
+    created: 2018-04-12T11:09:21.2033402+02:00
     description: Data Processor for Speaking Machine
     digest: 177312feb23d2b805026c5f07956d794cbd6af3e74e1298dd69cf9b8b44c23e1
     name: sm-data-processor
@@ -83,7 +93,7 @@ entries:
   sm-data-reporter:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-12T09:37:39.5701253+02:00
+    created: 2018-04-12T11:09:21.2063381+02:00
     description: Data Reporter for Speaking Machine
     digest: 30fb77a901f67d24a09e475f56969313f5b46159d65dc5c4289116b6ddf9a10f
     name: sm-data-reporter
@@ -93,7 +103,7 @@ entries:
   sm-user-manager:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-12T09:37:39.5811246+02:00
+    created: 2018-04-12T11:09:21.2083378+02:00
     description: User Manager for Speaking Machine
     digest: a4092536b3090bc1f1281015c6561304cfadb155bc1f44c64a0904058b3b19be
     name: sm-user-manager
@@ -103,11 +113,11 @@ entries:
   user-manager:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-12T09:37:39.6032667+02:00
+    created: 2018-04-12T11:09:21.2103737+02:00
     description: User Manager for Digital Fastening
     digest: 58d9a2070b88f596520ad78b3615ed42922a936aa8e204a0cc7329777b5e40d2
     name: user-manager
     urls:
     - https://engopenplatform.github.io/hrsmicroservices/user-manager-0.0.1.tgz
     version: 0.0.1
-generated: 2018-04-12T09:37:39.5072334+02:00
+generated: 2018-04-12T11:09:21.0183687+02:00
