@@ -3,7 +3,7 @@ entries:
   alerter:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-16T15:48:22.2300271+02:00
+    created: 2018-04-16T16:20:00.0815601+02:00
     description: Alerter for Digital Fastening
     digest: 6d41a21492075428117cacb2eb519b5537ba50af625adefebc26f46ad7036c2c
     name: alerter
@@ -13,7 +13,7 @@ entries:
   data-collector:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-16T15:48:22.251011+02:00
+    created: 2018-04-16T16:20:00.0820876+02:00
     description: Data Collector for Digital Fastening
     digest: 2154bdb21c1155b64691bafbc292b3e468533938d525d343abfc11c1c92a0397
     name: data-collector
@@ -23,7 +23,7 @@ entries:
   data-processor:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-16T15:48:22.2653813+02:00
+    created: 2018-04-16T16:20:00.0825595+02:00
     description: Data Processor for Digital Fastening
     digest: 367a688925367fb8a5b001da1683afb76aafb0c1c35065ef3fec8a98e92ca529
     name: data-processor
@@ -33,7 +33,7 @@ entries:
   data-reporter:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-16T15:48:22.274379+02:00
+    created: 2018-04-16T16:20:00.0830591+02:00
     description: Data Reporter for Digital Fastening
     digest: ace58a2aafc0125d61e05c740eee02cfe5110fee05d1922daca34d7d161f3747
     name: data-reporter
@@ -43,9 +43,9 @@ entries:
   sc-data-processor:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-16T15:48:22.2773789+02:00
+    created: 2018-04-16T16:20:00.0835605+02:00
     description: Data Processor for Smart Microclimate
-    digest: 0484930f7c98a680e93e935f3a1ae5a823b0a62217bf8587cf33596887528eb2
+    digest: 34640ceee56e6a04290cec49dad9afb914ad1609cd516ac273f8bd673bd17bfc
     name: sc-data-processor
     urls:
     - https://engopenplatform.github.io/hrsmicroservices/sc-data-processor-0.0.1.tgz
@@ -53,7 +53,7 @@ entries:
   sc-data-reporter:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-16T15:48:22.2935283+02:00
+    created: 2018-04-16T16:20:00.0952331+02:00
     description: Data Reporter for Smart Microclimate
     digest: 21434905dea7d8a18efec932a1cbdeb7813f9cf920cf372b97d3d8ebc68ab20f
     name: sc-data-reporter
@@ -63,9 +63,9 @@ entries:
   sc-user-manager:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-16T15:48:22.2955778+02:00
+    created: 2018-04-16T16:20:00.0961944+02:00
     description: User Manager for Smart Microclimate
-    digest: c09f59fe55d99d232d279c8a5198c395e1d7dcae67aea7f707a8c1eb0e16b672
+    digest: b6d233d63574e4342578e545ccfb9d2dea73844f1c917168286c30db289fca90
     name: sc-user-manager
     urls:
     - https://engopenplatform.github.io/hrsmicroservices/sc-user-manager-0.0.1.tgz
@@ -73,27 +73,67 @@ entries:
   sc-weather-forecast:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-16T15:48:22.3025396+02:00
+    created: 2018-04-16T16:20:00.0961944+02:00
     description: A Helm chart for Kubernetes
     digest: 3a135e03564c9a59333cd331c86a5411b500be6ee41821bc1c9151a13ba28197
     name: sc-weather-forecast
     urls:
     - https://engopenplatform.github.io/hrsmicroservices/sc-weather-forecast-0.1.0.tgz
     version: 0.1.0
+  se-data-collector:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-04-16T16:20:00.0971863+02:00
+    description: Data Collector for Smart Extractors
+    digest: b18ec186bb113e2e29db70ddd0191f7930cbd63d5a0fd606ab6ba2e2fcf25543
+    name: se-data-collector
+    urls:
+    - https://engopenplatform.github.io/hrsmicroservices/se-data-collector-0.0.1.tgz
+    version: 0.0.1
   se-data-manager:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-16T15:48:22.3173517+02:00
+    created: 2018-04-16T16:20:00.0981514+02:00
     description: Data Manager for Smart Extractors
     digest: 40e9c44b4673c0bcbaef5dee18d0fbd1792291132642a32d634a8c406c719c21
     name: se-data-manager
     urls:
     - https://engopenplatform.github.io/hrsmicroservices/se-data-manager-0.0.1.tgz
     version: 0.0.1
+  se-data-processor:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-04-16T16:20:00.0981514+02:00
+    description: Data Processor for Smart Extractors
+    digest: 841195c7b8800d06833f609f608a040c532d35da523489e353b4c8ed838e68e8
+    name: se-data-processor
+    urls:
+    - https://engopenplatform.github.io/hrsmicroservices/se-data-processor-0.0.1.tgz
+    version: 0.0.1
+  se-data-reporter:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-04-16T16:20:00.0991512+02:00
+    description: Data Reporter for Smart Extractors
+    digest: cca6a54d2449c6b37414f326c37639991d923991d049a5b2cc8d4fb0397a52dd
+    name: se-data-reporter
+    urls:
+    - https://engopenplatform.github.io/hrsmicroservices/se-data-reporter-0.0.1.tgz
+    version: 0.0.1
+  se-user-manager:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-04-16T16:20:00.0991512+02:00
+    description: User Manager for Smart Extractors
+    digest: 870afc795008ff82db04abed817f0b3234d14fcc40a25b3badce55417d67aa8d
+    name: se-user-manager
+    urls:
+    - https://engopenplatform.github.io/hrsmicroservices/se-user-manager-0.0.1.tgz
+    version: 0.0.1
   sm-alerter:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-16T15:48:22.3391636+02:00
+    created: 2018-04-16T16:20:00.1001514+02:00
     description: Alerter for Speaking Machine
     digest: 28203535dbbfcf4a71679663f6429d19f1605e9779292b660e3638a4f198b777
     name: sm-alerter
@@ -103,7 +143,7 @@ entries:
   sm-data-manager:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-16T15:48:22.341169+02:00
+    created: 2018-04-16T16:20:00.1001514+02:00
     description: Data Manager for Speaking Machine
     digest: dd5e31041bd79be922bfc7bff2ef7c24e0211c76c750e9754da865c382794825
     name: sm-data-manager
@@ -113,7 +153,7 @@ entries:
   sm-data-processor:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-16T15:48:22.3441292+02:00
+    created: 2018-04-16T16:20:00.1001514+02:00
     description: Data Processor for Speaking Machine
     digest: 177312feb23d2b805026c5f07956d794cbd6af3e74e1298dd69cf9b8b44c23e1
     name: sm-data-processor
@@ -123,7 +163,7 @@ entries:
   sm-data-reporter:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-16T15:48:22.3461651+02:00
+    created: 2018-04-16T16:20:00.1101468+02:00
     description: Data Reporter for Speaking Machine
     digest: 30fb77a901f67d24a09e475f56969313f5b46159d65dc5c4289116b6ddf9a10f
     name: sm-data-reporter
@@ -133,7 +173,7 @@ entries:
   sm-user-manager:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-16T15:48:22.3591413+02:00
+    created: 2018-04-16T16:20:00.117587+02:00
     description: User Manager for Speaking Machine
     digest: a4092536b3090bc1f1281015c6561304cfadb155bc1f44c64a0904058b3b19be
     name: sm-user-manager
@@ -143,11 +183,11 @@ entries:
   user-manager:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-04-16T15:48:22.3806607+02:00
+    created: 2018-04-16T16:20:00.118509+02:00
     description: User Manager for Digital Fastening
     digest: 58d9a2070b88f596520ad78b3615ed42922a936aa8e204a0cc7329777b5e40d2
     name: user-manager
     urls:
     - https://engopenplatform.github.io/hrsmicroservices/user-manager-0.0.1.tgz
     version: 0.0.1
-generated: 2018-04-16T15:48:22.1859791+02:00
+generated: 2018-04-16T16:20:00.0810847+02:00
