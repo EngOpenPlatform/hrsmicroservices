@@ -8,7 +8,7 @@ entries:
     digest: 8cfc22c70f256a1232a01a7ef68d76f702fa77495b62014ac733bb183edcc161
     name: alerter
     urls:
-    - https://engopenplatform.github.io/hrsmicroservices/alerter-1.0.0.tgz
+    - https://raw.githubusercontent.com/EngOpenPlatform/hrsmicroservices/master/alerter-1.0.0.tgz
     version: 1.0.0
   data-collector:
   - apiVersion: v1
@@ -18,7 +18,7 @@ entries:
     digest: 8dfeb4cf5866f35ac7a90cb4ebd91d9f2991c46e8f66ae0772b33583820691b8
     name: data-collector
     urls:
-    - https://engopenplatform.github.io/hrsmicroservices/data-collector-1.0.0.tgz
+    - https://raw.githubusercontent.com/EngOpenPlatform/hrsmicroservices/master/data-collector-1.0.0.tgz
     version: 1.0.0
   data-processor:
   - apiVersion: v1
@@ -28,7 +28,7 @@ entries:
     digest: c7561c1c72c1acb77ca0d9c44e9052cca5d4cf174df3f77f3b270c506e4dd16e
     name: data-processor
     urls:
-    - https://engopenplatform.github.io/hrsmicroservices/data-processor-1.0.0.tgz
+    - https://raw.githubusercontent.com/EngOpenPlatform/hrsmicroservices/master/data-processor-1.0.0.tgz
     version: 1.0.0
   data-reporter:
   - apiVersion: v1
@@ -38,7 +38,7 @@ entries:
     digest: 55fda51f75a7566e9dc4e7ca662fe977e0b414b1b4cf9388611aa78b6c6c5c21
     name: data-reporter
     urls:
-    - https://engopenplatform.github.io/hrsmicroservices/data-reporter-1.0.0.tgz
+    - https://raw.githubusercontent.com/EngOpenPlatform/hrsmicroservices/master/data-reporter-1.0.0.tgz
     version: 1.0.0
   sc-csv-data-collector:
   - apiVersion: v1
@@ -48,7 +48,7 @@ entries:
     digest: 29bc6e86eaaf075ee5a4c156a176a5efaa3596656cf4886670e16684d8cbe396
     name: sc-csv-data-collector
     urls:
-    - https://engopenplatform.github.io/hrsmicroservices/sc-csv-data-collector-1.0.0.tgz
+    - https://raw.githubusercontent.com/EngOpenPlatform/hrsmicroservices/master/sc-csv-data-collector-1.0.0.tgz
     version: 1.0.0
   sc-data-collector:
   - apiVersion: v1
@@ -58,7 +58,7 @@ entries:
     digest: ff2b72a859c00bf3206931e3c33dcb2c01077c5fd1fce79fa4bdfd2334ca7266
     name: sc-data-collector
     urls:
-    - https://engopenplatform.github.io/hrsmicroservices/sc-data-collector-1.0.0.tgz
+    - https://raw.githubusercontent.com/EngOpenPlatform/hrsmicroservices/master/sc-data-collector-1.0.0.tgz
     version: 1.0.0
   sc-data-processor:
   - apiVersion: v1
@@ -68,7 +68,7 @@ entries:
     digest: 078cb7454e997660aaf9a3f102ab957934355acf59e6496a8b098f5c128a39ef
     name: sc-data-processor
     urls:
-    - https://engopenplatform.github.io/hrsmicroservices/sc-data-processor-1.0.0.tgz
+    - https://raw.githubusercontent.com/EngOpenPlatform/hrsmicroservices/master/sc-data-processor-1.0.0.tgz
     version: 1.0.0
   sc-data-reporter:
   - apiVersion: v1
@@ -78,7 +78,7 @@ entries:
     digest: dadf924c59689e45f276aa1423fd7350ccc894fe85f4853e4a846a5e8167bfe4
     name: sc-data-reporter
     urls:
-    - https://engopenplatform.github.io/hrsmicroservices/sc-data-reporter-1.0.0.tgz
+    - https://raw.githubusercontent.com/EngOpenPlatform/hrsmicroservices/master/sc-data-reporter-1.0.0.tgz
     version: 1.0.0
   sc-user-manager:
   - apiVersion: v1
@@ -88,7 +88,7 @@ entries:
     digest: d83e48383d1526a63770ba1615523b22313a7fff9464b60fcb1c99f09dc737a5
     name: sc-user-manager
     urls:
-    - https://engopenplatform.github.io/hrsmicroservices/sc-user-manager-1.0.0.tgz
+    - https://raw.githubusercontent.com/EngOpenPlatform/hrsmicroservices/master/sc-user-manager-1.0.0.tgz
     version: 1.0.0
   sc-weather-forecast:
   - apiVersion: v1
@@ -98,7 +98,7 @@ entries:
     digest: a571732d2ba1256bff9fb022c67cf9ae232690e0beacd4322c4da706cfea6482
     name: sc-weather-forecast
     urls:
-    - https://engopenplatform.github.io/hrsmicroservices/sc-weather-forecast-1.0.0.tgz
+    - https://raw.githubusercontent.com/EngOpenPlatform/hrsmicroservices/master/sc-weather-forecast-1.0.0.tgz
     version: 1.0.0
   se-data-collector:
   - apiVersion: v1
@@ -108,7 +108,7 @@ entries:
     digest: b2e5b59613bdd6c9c461760e94462aa06a10dedc77023bc03fe25744919d1369
     name: se-data-collector
     urls:
-    - https://engopenplatform.github.io/hrsmicroservices/se-data-collector-1.0.0.tgz
+    - https://raw.githubusercontent.com/EngOpenPlatform/hrsmicroservices/master/se-data-collector-1.0.0.tgz
     version: 1.0.0
   se-data-manager:
   - apiVersion: v1
@@ -118,7 +118,7 @@ entries:
     digest: 4fcd8dcad527e2d24750639f58769d3dae431cdca91cea74072326cb91d0b939
     name: se-data-manager
     urls:
-    - https://engopenplatform.github.io/hrsmicroservices/se-data-manager-1.0.0.tgz
+    - https://raw.githubusercontent.com/EngOpenPlatform/hrsmicroservices/master/se-data-manager-1.0.0.tgz
     version: 1.0.0
   se-data-processor:
   - apiVersion: v1
@@ -128,7 +128,7 @@ entries:
     digest: dc015bdf6a3854694313449414b8236fcc227982d192d3c9873ff50974d5d492
     name: se-data-processor
     urls:
-    - https://engopenplatform.github.io/hrsmicroservices/se-data-processor-1.0.0.tgz
+    - https://raw.githubusercontent.com/EngOpenPlatform/hrsmicroservices/master/se-data-processor-1.0.0.tgz
     version: 1.0.0
   se-data-reporter:
   - apiVersion: v1
@@ -138,7 +138,7 @@ entries:
     digest: 478eb4900afc0bf131ad3f87cfbefcec4c7ed7332dc713cc0af58ba2d307c174
     name: se-data-reporter
     urls:
-    - https://engopenplatform.github.io/hrsmicroservices/se-data-reporter-1.0.0.tgz
+    - https://raw.githubusercontent.com/EngOpenPlatform/hrsmicroservices/master/se-data-reporter-1.0.0.tgz
     version: 1.0.0
   se-user-manager:
   - apiVersion: v1
@@ -148,7 +148,7 @@ entries:
     digest: b95e154cd54d3bb3ebd5514c35e4e177cd04deaec3920dc9165cffa4492d8898
     name: se-user-manager
     urls:
-    - https://engopenplatform.github.io/hrsmicroservices/se-user-manager-1.0.0.tgz
+    - https://raw.githubusercontent.com/EngOpenPlatform/hrsmicroservices/master/se-user-manager-1.0.0.tgz
     version: 1.0.0
   sm-alerter:
   - apiVersion: v1
@@ -158,7 +158,7 @@ entries:
     digest: 5aee0370d9b400f2889c787e6007346037c228fe9dce385ea9fbe4165da8319f
     name: sm-alerter
     urls:
-    - https://engopenplatform.github.io/hrsmicroservices/sm-alerter-1.0.0.tgz
+    - https://raw.githubusercontent.com/EngOpenPlatform/hrsmicroservices/master/sm-alerter-1.0.0.tgz
     version: 1.0.0
   sm-data-manager:
   - apiVersion: v1
@@ -168,7 +168,7 @@ entries:
     digest: 2438d994a5021c18a9f4f5f400603c78eda2aa4563246aadf98943b616da5fa1
     name: sm-data-manager
     urls:
-    - https://engopenplatform.github.io/hrsmicroservices/sm-data-manager-1.0.0.tgz
+    - https://raw.githubusercontent.com/EngOpenPlatform/hrsmicroservices/master/sm-data-manager-1.0.0.tgz
     version: 1.0.0
   sm-data-processor:
   - apiVersion: v1
@@ -178,7 +178,7 @@ entries:
     digest: 498d309fe598395b9942470bfb70eaaf07a41b2080936905e4da33734f512d48
     name: sm-data-processor
     urls:
-    - https://engopenplatform.github.io/hrsmicroservices/sm-data-processor-1.0.0.tgz
+    - https://raw.githubusercontent.com/EngOpenPlatform/hrsmicroservices/master/sm-data-processor-1.0.0.tgz
     version: 1.0.0
   sm-data-reporter:
   - apiVersion: v1
@@ -188,7 +188,7 @@ entries:
     digest: b107a26b12294a9f81a81bc9b7692406f028749a2c6bcd45595b8d332107b1f6
     name: sm-data-reporter
     urls:
-    - https://engopenplatform.github.io/hrsmicroservices/sm-data-reporter-1.0.0.tgz
+    - https://raw.githubusercontent.com/EngOpenPlatform/hrsmicroservices/master/sm-data-reporter-1.0.0.tgz
     version: 1.0.0
   sm-user-manager:
   - apiVersion: v1
@@ -198,7 +198,7 @@ entries:
     digest: 575c4c9e87bd11d11708e426b1ef5c8ec19c5be83f4d4e336b7105dd23cd6fb3
     name: sm-user-manager
     urls:
-    - https://engopenplatform.github.io/hrsmicroservices/sm-user-manager-1.0.0.tgz
+    - https://raw.githubusercontent.com/EngOpenPlatform/hrsmicroservices/master/sm-user-manager-1.0.0.tgz
     version: 1.0.0
   user-manager:
   - apiVersion: v1
@@ -208,6 +208,6 @@ entries:
     digest: 850909126d6f06b9af5d7d1158e752f9562df9f94854706df71c59aec7d9f303
     name: user-manager
     urls:
-    - https://engopenplatform.github.io/hrsmicroservices/user-manager-1.0.0.tgz
+    - https://raw.githubusercontent.com/EngOpenPlatform/hrsmicroservices/master/user-manager-1.0.0.tgz
     version: 1.0.0
 generated: 2018-05-18T08:36:08.4570902+02:00
